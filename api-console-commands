@@ -1,0 +1,5 @@
+#build based on RAML spec file
+api-console build -a api.raml -t "RAML 1.0" -n "5.0.0-preview"
+
+#start web server using the build dir generated
+api-console serve build/
